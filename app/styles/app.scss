@@ -1,0 +1,369 @@
+
+// Bootstrap Variables
+$icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
+
+// Import Bootstrap
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+
+//Global Styles-----------------------------------------------------------------
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+html, body {
+  margin: 0;
+  height: 100%
+}
+
+//Clouds Background-------------------------------------------------------------
+
+.sky {
+  height: 100vh;
+  background: #007fd5;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+  -webkit-animation: sky_background 50s ease-out infinite;
+  -moz-animation: sky_background 50s ease-out infinite;
+  -o-animation: sky_background 50s ease-out infinite;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+}
+
+.clouds_one {
+  background: url("../images/cloud-one.png");
+  position: absolute;
+  left: 0;
+  top: 200px;
+  height: 100%;
+  width: 300%;
+  -webkit-animation: cloud_one 70s linear infinite;
+  -moz-animation: cloud_one 70s linear infinite;
+  -o-animation: cloud_one 70s linear infinite;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+}
+
+.clouds_two {
+  background: url("../images/cloud-two.png");
+  position: absolute;
+  left: 400px;
+  top: 0;
+  height: 100%;
+  width: 300%;
+  -webkit-animation: cloud_two 125s linear infinite;
+  -moz-animation: cloud_two 125s linear infinite;
+  -o-animation: cloud_two 125s linear infinite;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+}
+
+.clouds_three {
+  background: url("../images/cloud-three.png");
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 300%;
+  -webkit-animation: cloud_three 250s linear infinite;
+  -moz-animation: cloud_three 250s linear infinite;
+  -o-animation: cloud_three 250s linear infinite;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+}
+
+// @-webkit-keyframes sky_background {
+//   0% {
+//     background: #007fd5;
+//     color: #007fd5;
+//   }
+//   50% {
+//     background: #000;
+//     color: #a3d9ff;
+//   }
+//   100% {
+//     background: #007fd5;
+//     color: #007fd5;
+//   }
+// }
+
+@-webkit-keyframes cloud_one {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -200%;
+  }
+}
+
+@-webkit-keyframes cloud_two {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -200%;
+  }
+}
+
+@-webkit-keyframes cloud_three {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -200%;
+  }
+}
+
+// @-moz-keyframes sky_background {
+//   0% {
+//     background: #007fd5;
+//     color: #007fd5;
+//   }
+//   50% {
+//     background: #000;
+//     color: #a3d9ff;
+//   }
+//   100% {
+//     background: #007fd5;
+//     color: #007fd5;
+//   }
+// }
+
+@-moz-keyframes cloud_one {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -200%;
+  }
+}
+
+@-moz-keyframes cloud_two {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -200%;
+  }
+}
+
+@-moz-keyframes cloud_three {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -200%;
+  }
+}
+
+//Side Bar Styles---------------------------------------------------------------
+
+a {
+  color:#222222;
+}
+
+a:hover {
+  text-decoration:none;
+}
+
+.wrapper, .row {
+   height: 100%;
+   margin-left:0;
+   margin-right:0;
+}
+
+.wrapper:before, .wrapper:after,
+.column:before, .column:after {
+  content: "";
+  display: table;
+}
+
+.wrapper:after,
+.column:after {
+  clear: both;
+}
+
+.column {
+  height: 100%;
+  overflow: auto;
+  *zoom:1;
+}
+
+.box {
+	bottom: 0; /* increase for footer use */
+  left: 0;
+  position: absolute;
+  // right: 500px;
+  top: 0;
+  background-color:#444444;
+  z-index: 10;
+}
+
+#sidebar {
+  padding:0px;
+	padding-top:15px;
+}
+
+#sidebar,
+#sidebar a {
+  color:#ffffff;
+	text-shadow:0 0 2px #000000;
+  padding-left:5px;
+}
+
+#sidebar .nav li>a:hover {
+  background-color:#393939;
+}
+
+#sidebar-footer {
+  background-color:#444444;
+  position:absolute;
+  bottom:5px;
+  padding:5px;
+}
+
+.nav-font {
+  font-size: 22px;
+}
+
+.media {
+  margin-right: 20px;
+  height: 30px;
+  width: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .box {
+    padding: 0;
+  }
+
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+  }
+
+  .row-offcanvas-left.active {
+    left: 33%;
+  }
+
+  .row-offcanvas-left.active .sidebar-offcanvas {
+    left: -33%;
+    position: absolute;
+    top: 0;
+    width: 33%;
+    margin-left: 5px;
+  }
+
+  #sidebar, #sidebar a {
+    padding-left:3px;
+  }
+}
+
+@media (max-width: 1300px) {
+  #sidebar-footer {
+    background-color:#444444;
+    position:absolute;
+    h3,
+    h4 {
+      font-size: 10px;
+    }
+  }
+
+  .nav-font {
+    font-size: 20px;
+  }
+
+  .media {
+    margin-right: 0px;
+    height: 25px;
+    width: 25px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .nav-font {
+    font-size: 13px;
+  }
+}
+
+//Home Page Styles--------------------------------------------------------------
+
+.storm-cloud-container{
+  display: table;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  padding: 0;
+}
+
+.storm-cloud {
+  background-image: url('../images/storm-cloud.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.av-logo {
+  text-align: center;
+  img {
+    height: 600px;
+    transform: rotate(330deg);
+  }
+}
+
+@media (max-width: 1400px) {
+
+  .av-logo {
+    img {
+      height: 450px;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+
+  .av-logo {
+    img {
+      height: 400px;
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+
+  .av-logo {
+    img {
+      height: 350px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+
+  .av-logo {
+    img {
+      height: 300px;
+    }
+  }
+}
