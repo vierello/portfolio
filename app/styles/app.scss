@@ -458,6 +458,52 @@ a:hover {
   background-image: linear-gradient(to bottom, white, #007fd5);
 }
 
+.github-profile {
+  height: 400px;
+  position: relative;
+  p {
+    display: inline-block;
+    font-size: 18px;
+    padding-left: 20px;
+  }
+  a {
+    display: inline-block;
+    font-size: 18px;
+    padding-left: 20px;
+  }
+  .github-profile-text {
+    margin-top: 20px;
+    padding: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+  }
+  h1 {
+    padding-left: 20px;
+  }
+  .github-profile-image {
+    height: 400px;
+    display: inline-block;
+    position: relative;
+    left: 0;
+  }
+  .github-profile-tech-bar {
+    position: relative;
+    height: 400px;
+  }
+  .github-profile-tech {
+    position: relative;
+    bottom: 10px;
+    color: white;
+  }
+  .github-profile-links {
+    margin-left: 10px;
+    position: relative;
+    bottom: 10px;
+    color: white;
+  }
+}
+
 .third-bar {
   height: 400px;
   padding: 0;
@@ -466,6 +512,46 @@ a:hover {
   background-image:-moz-linear-gradient(top, white, #007fd5);
   background-image:-o-linear-gradient(top, white, #007fd5);
   background-image: linear-gradient(to bottom, white, #007fd5);
+}
+
+.recipes {
+  height: 400px;
+  position: relative;
+  p {
+    display: inline-block;
+    font-size: 18px;
+  }
+  a {
+    display: inline-block;
+    font-size: 18px;
+  }
+  .recipes-text {
+    margin-top: 20px;
+    padding: 0;
+    padding-right: 20px;
+    color: white;
+  }
+  .recipes-image {
+    height: 400px;
+    display: inline-block;
+    position: relative;
+    left: 0;
+  }
+  .recipes-tech-bar {
+    position: relative;
+    height: 400px;
+  }
+  .recipes-tech {
+    position: relative;
+    bottom: 10px;
+    color: white;
+  }
+  .recipes-links {
+    margin-left: 10px;
+    position: relative;
+    bottom: 10px;
+    color: white;
+  }
 }
 
 .fourth-bar {
@@ -478,6 +564,52 @@ a:hover {
   background-image: linear-gradient(to bottom, white, #007fd5);
 }
 
+.majestic-thai {
+  height: 400px;
+  position: relative;
+  p {
+    display: inline-block;
+    font-size: 18px;
+    padding-left: 20px;
+  }
+  a {
+    display: inline-block;
+    font-size: 18px;
+    padding-left: 20px;
+  }
+  h1 {
+    padding-left: 20px;
+  }
+  .majestic-thai-text {
+    margin-top: 20px;
+    padding: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+  }
+  .majestic-thai-image {
+    height: 400px;
+    display: inline-block;
+    position: relative;
+    left: 0;
+  }
+  .majestic-thai-tech-bar {
+    position: relative;
+    height: 400px;
+  }
+  .majestic-thai-tech {
+    position: relative;
+    bottom: 10px;
+    color: white;
+  }
+  .majestic-thai-links {
+    margin-left: 10px;
+    position: relative;
+    bottom: 10px;
+    color: white;
+  }
+}
+
 .fifth-bar {
   height: 400px;
   padding: 0;
@@ -488,6 +620,46 @@ a:hover {
   background-image: linear-gradient(to bottom, white, #007fd5);
 }
 
+.sk8-site {
+  height: 400px;
+  position: relative;
+  p {
+    display: inline-block;
+    font-size: 18px;
+  }
+  a {
+    display: inline-block;
+    font-size: 18px;
+  }
+  .sk8-site-text {
+    margin-top: 20px;
+    padding: 0;
+    padding-right: 20px;
+    color: white;
+  }
+  .sk8-site-image {
+    height: 400px;
+    display: inline-block;
+    position: relative;
+    left: 0;
+  }
+  .sk8-site-tech-bar {
+    position: relative;
+    height: 400px;
+  }
+  .sk8-site-tech {
+    position: relative;
+    bottom: 10px;
+    color: white;
+  }
+  .sk8-site-links {
+    margin-left: 10px;
+    position: relative;
+    bottom: 10px;
+    color: white;
+  }
+}
+
 .sixth-bar {
   height: 400px;
   padding: 0;
@@ -496,4 +668,50 @@ a:hover {
   background-image:-moz-linear-gradient(top, white, #007fd5);
   background-image:-o-linear-gradient(top, white, #007fd5);
   background-image: linear-gradient(to bottom, white, #007fd5);
+}
+
+.etsy-recreation {
+  height: 400px;
+  position: relative;
+  p {
+    display: inline-block;
+    font-size: 18px;
+    padding-left: 20px;
+  }
+  a {
+    display: inline-block;
+    font-size: 18px;
+    padding-left: 20px;
+  }
+  h1 {
+    padding-left: 20px;
+  }
+  .etsy-recreation-text {
+    margin-top: 20px;
+    padding: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+  }
+  .etsy-recreation-image {
+    height: 400px;
+    display: inline-block;
+    position: relative;
+    left: 0;
+  }
+  .etsy-recreation-tech-bar {
+    position: relative;
+    height: 400px;
+  }
+  .etsy-recreation-tech {
+    position: relative;
+    bottom: 10px;
+    color: white;
+  }
+  .etsy-recreation-links {
+    margin-left: 10px;
+    position: relative;
+    bottom: 10px;
+    color: white;
+  }
 }

@@ -1,6 +1,11 @@
 var React = require('react');
 
 var BudgetMeComponent = require('./projects.jsx').BudgetMeComponent;
+var GithubProfileComponent = require('./projects.jsx').GithubProfileComponent;
+var RecipesComponent = require('./projects.jsx').RecipesComponent;
+var MajesticThaiComponent = require('./projects.jsx').MajesticThaiComponent;
+var Sk8SiteComponent = require('./projects.jsx').Sk8SiteComponent;
+var EtsyRecreationComponent = require('./projects.jsx').EtsyRecreationComponent;
 
 
 var NavComponent = React.createClass({
@@ -66,27 +71,27 @@ var HomeComponent = React.createClass({
       </div>
       <div className="row second-bar">
         <div className="projects col-xs-12">
-          <BudgetMeComponent />
+          <GithubProfileComponent />
         </div>
       </div>
       <div className="row third-bar">
         <div className="projects col-xs-12">
-          <BudgetMeComponent />
+          <RecipesComponent />
         </div>
       </div>
       <div className="row fourth-bar">
         <div className="projects col-xs-12">
-          <BudgetMeComponent />
+          <MajesticThaiComponent />
         </div>
       </div>
       <div className="row fifth-bar">
         <div className="projects col-xs-12">
-          <BudgetMeComponent />
+          <Sk8SiteComponent />
         </div>
       </div>
       <div className="row sixth-bar">
         <div className="projects col-xs-12">
-          <BudgetMeComponent />
+          <EtsyRecreationComponent />
         </div>
       </div>
     </div>
