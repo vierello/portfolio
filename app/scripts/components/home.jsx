@@ -1,12 +1,14 @@
 var React = require('react');
 
+var BudgetMeComponent = require('./projects.jsx').BudgetMeComponent;
+
 
 var NavComponent = React.createClass({
   render: function(){
     return (
       <div className="wrapper">
         <div className="box col-sm-2 col-xs-1">
-          <div className="row row-offcanvas row-offcanvas-left">
+          <div className="nav-row row-offcanvas row-offcanvas-left">
             <div className="column  sidebar-offcanvas" id="sidebar">
               <ul className="nav hidden-xs" id="lg-menu">
                 <li className="nav-font active"><a href="#home/"><i className="glyphicon glyphicon-home"></i> Home</a></li>
@@ -41,7 +43,8 @@ var HomeComponent = React.createClass({
   render: function(){
     return (
     <div>
-      <NavComponent/>
+      <div className="sky row">
+        <NavComponent/>
         <div>
           <div className="clouds_one col-xs-12"></div>
           <div className="clouds_two col-xs-12"></div>
@@ -50,6 +53,42 @@ var HomeComponent = React.createClass({
         <div className="col-md-offset-2 col-md-10 col-sm-offset-2 col-sm-10  col-xs-12 storm-cloud-container">
           <div className="storm-cloud"><p className="av-logo"><img src='images/av_logo.png'/></p></div>
         </div>
+      </div>
+      <div className="row title-bar">
+        <div className="col-xs-12">
+          <h2>PROJECTS</h2>
+        </div>
+      </div>
+      <div className="row first-bar">
+        <div className="projects col-xs-12">
+          <BudgetMeComponent />
+        </div>
+      </div>
+      <div className="row second-bar">
+        <div className="projects col-xs-12">
+          <BudgetMeComponent />
+        </div>
+      </div>
+      <div className="row third-bar">
+        <div className="projects col-xs-12">
+          <BudgetMeComponent />
+        </div>
+      </div>
+      <div className="row fourth-bar">
+        <div className="projects col-xs-12">
+          <BudgetMeComponent />
+        </div>
+      </div>
+      <div className="row fifth-bar">
+        <div className="projects col-xs-12">
+          <BudgetMeComponent />
+        </div>
+      </div>
+      <div className="row sixth-bar">
+        <div className="projects col-xs-12">
+          <BudgetMeComponent />
+        </div>
+      </div>
     </div>
     )
   }

@@ -14,13 +14,23 @@ $icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
   box-sizing: border-box;
 }
 
+body {
+  font-family: chalkduster;
+}
+
 img {
   max-width: 100%;
 }
 
 html, body {
   margin: 0;
-  height: 100%
+  height: 100%;
+  overflow: scroll;
+
+}
+
+#container {
+  padding: 0;
 }
 
 //Clouds Background-------------------------------------------------------------
@@ -180,7 +190,7 @@ a:hover {
   text-decoration:none;
 }
 
-.wrapper, .row {
+.wrapper, .nav-row {
    height: 100%;
    margin-left:0;
    margin-right:0;
@@ -220,6 +230,7 @@ a:hover {
 
 #sidebar,
 #sidebar a {
+  font-family: chalkduster;
   color:#ffffff;
 	text-shadow:0 0 2px #000000;
   padding-left:5px;
@@ -306,7 +317,8 @@ a:hover {
 
 .storm-cloud-container{
   display: table;
-  position: relative;
+  position: absolute;
+  vertical-align: middle;
   top: 0;
   bottom: 0;
   left: 0;
@@ -318,10 +330,11 @@ a:hover {
 .storm-cloud {
   background-image: url('../images/storm-cloud.png');
   background-position: center;
-  background-size: cover;
+  background-size: 75%;
   background-repeat: no-repeat;
   display: table-cell;
   vertical-align: middle;
+  height: 600px;
 }
 
 .av-logo {
@@ -354,7 +367,7 @@ a:hover {
 
   .av-logo {
     img {
-      height: 350px;
+      height: 300px;
     }
   }
 }
@@ -363,7 +376,124 @@ a:hover {
 
   .av-logo {
     img {
-      height: 300px;
+      height: 200px;
     }
   }
+}
+
+.title-bar {
+  background: white;
+  padding-top: 10px;
+  padding-bottom: 18px;
+  text-align: center;
+  h2{
+  color: #444444;
+  font-size: 44px;
+  }
+}
+
+.projects {
+  height: 400px;
+  padding: 0;
+  position: relative;
+}
+
+.first-bar {
+  height: 400px;
+  padding: 0;
+  background-color: #007fd5;
+  background-image:-webkit-linear-gradient(top, white, #007fd5);
+  background-image:-moz-linear-gradient(top, white, #007fd5);
+  background-image:-o-linear-gradient(top, white, #007fd5);
+  background-image: linear-gradient(to bottom, white, #007fd5);
+}
+
+.budget-me {
+  height: 400px;
+  position: relative;
+  p {
+    display: inline-block;
+    font-size: 18px;
+  }
+  a {
+    display: inline-block;
+    font-size: 18px;
+  }
+  .budget-me-text {
+    margin-top: 20px;
+    padding: 0;
+    padding-right: 20px;
+    color: white;
+  }
+  .budget-me-image {
+    height: 400px;
+    display: inline-block;
+    position: relative;
+    left: 0;
+  }
+  .budget-me-tech-bar {
+    position: relative;
+    height: 400px;
+  }
+  .budget-me-tech {
+    position: relative;
+    bottom: 10px;
+    color: white;
+  }
+  .budget-me-links {
+    margin-left: 10px;
+    position: relative;
+    bottom: 10px;
+    color: white;
+  }
+}
+
+.second-bar {
+  height: 400px;
+  padding: 0;
+  background-color: #007fd5;
+  background-image:-webkit-linear-gradient(top, white, #007fd5);
+  background-image:-moz-linear-gradient(top, white, #007fd5);
+  background-image:-o-linear-gradient(top, white, #007fd5);
+  background-image: linear-gradient(to bottom, white, #007fd5);
+}
+
+.third-bar {
+  height: 400px;
+  padding: 0;
+  background-color: #007fd5;
+  background-image:-webkit-linear-gradient(top, white, #007fd5);
+  background-image:-moz-linear-gradient(top, white, #007fd5);
+  background-image:-o-linear-gradient(top, white, #007fd5);
+  background-image: linear-gradient(to bottom, white, #007fd5);
+}
+
+.fourth-bar {
+  height: 400px;
+  padding: 0;
+  background-color: #007fd5;
+  background-image:-webkit-linear-gradient(top, white, #007fd5);
+  background-image:-moz-linear-gradient(top, white, #007fd5);
+  background-image:-o-linear-gradient(top, white, #007fd5);
+  background-image: linear-gradient(to bottom, white, #007fd5);
+}
+
+.fifth-bar {
+  height: 400px;
+  padding: 0;
+  background-color: #007fd5;
+  background-image:-webkit-linear-gradient(top, white, #007fd5);
+  background-image:-moz-linear-gradient(top, white, #007fd5);
+  background-image:-o-linear-gradient(top, white, #007fd5);
+  background-image: linear-gradient(to bottom, white, #007fd5);
+}
+
+.sixth-bar {
+  height: 400px;
+  padding: 0;
+  background-color: #007fd5;
+  background-image:-webkit-linear-gradient(top, white, #007fd5);
+  background-image:-moz-linear-gradient(top, white, #007fd5);
+  background-image:-o-linear-gradient(top, white, #007fd5);
+  background-image: linear-gradient(to bottom, white, #007fd5);
 }
