@@ -19,22 +19,20 @@ var NavComponent = React.createClass({
                 <li className="nav-font active"><a href="#home/"><i className="glyphicon glyphicon-home"></i> Home</a></li>
                 <li className="nav-font"><a href="#resume/"><i className="glyphicon glyphicon-list-alt"></i> Resum&eacute;</a></li>
                 <li className="nav-font"><a href="#aboutme/"><i className="glyphicon glyphicon-user"></i> About Me</a></li>
-                <li className="nav-font"><a href="#"><i className="glyphicon glyphicon-refresh"></i> Refresh</a></li>
               </ul>
               <ul className="list-unstyled hidden-s hidden-xs" id="sidebar-footer">
                 <li>
                   <h3>Andrew Vitello</h3>
                   <h4>avitello75@gmail.com</h4>
-                  <a href="#"><i className="media fa fa-facebook-official fa-2x"></i></a>
-                  <a href="#"><i className="media fa fa-twitter-square fa-2x"></i></a>
-                  <a href="#"><i className="media fa fa-github-square fa-2x"></i></a>
+                  <a href="https://www.facebook.com/vitello1"><i className="media fa fa-facebook-official fa-2x"></i></a>
+                  <a href="https://twitter.com/vierello"><i className="media fa fa-twitter-square fa-2x"></i></a>
+                  <a href="https://github.com/vierello"><i className="media fa fa-github-square fa-2x"></i></a>
                 </li>
               </ul>
               <ul className="nav visible-xs" id="xs-menu">
-              	<li><a href="#home/" className="text-center"><i className="glyphicon glyphicon-list-alt"></i></a></li>
-                <li><a href="#resume/" className="text-center"><i className="glyphicon glyphicon-list"></i></a></li>
-              	<li><a href="#aboutme/" className="text-center"><i className="glyphicon glyphicon-paperclip"></i></a></li>
-                <li><a href="#" className="text-center"><i className="glyphicon glyphicon-refresh"></i></a></li>
+              	<li><a href="#home/" className="text-center"><i className="glyphicon glyphicon-home"></i></a></li>
+                <li><a href="#resume/" className="text-center"><i className="glyphicon glyphicon-list-alt"></i></a></li>
+              	<li><a href="#aboutme/" className="text-center"><i className="glyphicon glyphicon-user"></i></a></li>
               </ul>
             </div>
           </div>
@@ -93,6 +91,16 @@ var HomeComponent = React.createClass({
         <div className="projects col-xs-12">
           <EtsyRecreationComponent />
         </div>
+      </div>
+      <div className="row footer">
+        <footer className="col-xs-12">
+          <img className="headshot" src="images/AV-headshot.jpg"/>
+          <a href="#"><i className="media glyphicon glyphicon-user"></i>About Me</a>
+          <a href="#"><i className="media glyphicon glyphicon-list-alt"></i>Resume</a>
+          <a href="https://github.com/vierello"><i className="media fa fa-github-square fa-2x"></i>Github</a>
+          <a href="https://www.facebook.com/vitello1"><i className="media fa fa-facebook-official fa-2x"></i>Facebook</a>
+          <a href="https://twitter.com/vierello"><i className="media fa fa-twitter-square fa-2x"></i>Twitter</a>
+        </footer>
       </div>
     </div>
     )

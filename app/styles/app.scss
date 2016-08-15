@@ -255,6 +255,7 @@ a:hover {
   margin-right: 20px;
   height: 30px;
   width: 30px;
+  font-size: 25px;
 }
 
 @media screen and (max-width: 768px) {
@@ -392,9 +393,25 @@ a:hover {
   }
 }
 
+//Porjects Styles---------------------------------------------------------------
+
+.first-bar,
+.second-bar,
+.third-bar,
+.fourth-bar,
+.fifth-bar,
+.sixth-bar {
+  margin-bottom: 10px;
+}
+
 .projects {
   height: 400px;
   padding: 0;
+  position: relative;
+}
+
+.text-container {
+  height: 400px;
   position: relative;
 }
 
@@ -418,11 +435,13 @@ a:hover {
   a {
     display: inline-block;
     font-size: 18px;
+    padding-left: 20px;
   }
   .budget-me-text {
     margin-top: 20px;
     padding: 0;
     padding-right: 20px;
+    line-height: 34px;
     color: white;
   }
   .budget-me-image {
@@ -432,8 +451,8 @@ a:hover {
     left: 0;
   }
   .budget-me-tech-bar {
-    position: relative;
-    height: 400px;
+    position: absolute;
+    bottom: 20px;
   }
   .budget-me-tech {
     position: relative;
@@ -477,6 +496,7 @@ a:hover {
     padding-left: 20px;
     padding-right: 20px;
     color: white;
+    line-height: 34px;
   }
   h1 {
     padding-left: 20px;
@@ -488,8 +508,8 @@ a:hover {
     left: 0;
   }
   .github-profile-tech-bar {
-    position: relative;
-    height: 400px;
+    position: absolute;
+    bottom: 20px;
   }
   .github-profile-tech {
     position: relative;
@@ -524,12 +544,14 @@ a:hover {
   a {
     display: inline-block;
     font-size: 18px;
+    padding-left: 20px;
   }
   .recipes-text {
     margin-top: 20px;
     padding: 0;
     padding-right: 20px;
     color: white;
+    line-height: 34px;
   }
   .recipes-image {
     height: 400px;
@@ -538,8 +560,8 @@ a:hover {
     left: 0;
   }
   .recipes-tech-bar {
-    position: relative;
-    height: 400px;
+    position: absolute;
+    bottom: 20px;
   }
   .recipes-tech {
     position: relative;
@@ -586,6 +608,7 @@ a:hover {
     padding-left: 20px;
     padding-right: 20px;
     color: white;
+    line-height: 34px;
   }
   .majestic-thai-image {
     height: 400px;
@@ -594,8 +617,8 @@ a:hover {
     left: 0;
   }
   .majestic-thai-tech-bar {
-    position: relative;
-    height: 400px;
+    position: absolute;
+    bottom: 20px;
   }
   .majestic-thai-tech {
     position: relative;
@@ -630,12 +653,14 @@ a:hover {
   a {
     display: inline-block;
     font-size: 18px;
+    padding-left: 20px;
   }
   .sk8-site-text {
     margin-top: 20px;
     padding: 0;
     padding-right: 20px;
     color: white;
+    line-height: 34px;
   }
   .sk8-site-image {
     height: 400px;
@@ -644,8 +669,8 @@ a:hover {
     left: 0;
   }
   .sk8-site-tech-bar {
-    position: relative;
-    height: 400px;
+    position: absolute;
+    bottom: 20px;
   }
   .sk8-site-tech {
     position: relative;
@@ -692,6 +717,7 @@ a:hover {
     padding-left: 20px;
     padding-right: 20px;
     color: white;
+    line-height: 34px;
   }
   .etsy-recreation-image {
     height: 400px;
@@ -700,8 +726,8 @@ a:hover {
     left: 0;
   }
   .etsy-recreation-tech-bar {
-    position: relative;
-    height: 400px;
+    position: absolute;
+    bottom: 20px;
   }
   .etsy-recreation-tech {
     position: relative;
@@ -714,4 +740,24 @@ a:hover {
     bottom: 10px;
     color: white;
   }
+}
+
+//Footer styles-----------------------------------------------------------------
+
+.footer {
+  line-height: 200px;
+  height: 200px;
+  background-color: #444444;
+  a {
+  color: white;
+  display: inline-block;
+  }
+}
+
+.headshot {
+  height: 130px;
+  width: 130px;
+  border-radius: 65px;
+  vertical-align: middle;
+  margin-left: 20px;
 }
