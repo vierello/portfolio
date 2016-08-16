@@ -51,7 +51,38 @@ html, body {
   -o-transform: translate3d(0, 0, 0);
 }
 
+.sky-storm {
+  height: 100vh;
+  background: #007fd5;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+  -webkit-animation: sky_background 50s ease-out infinite;
+  -moz-animation: sky_background 50s ease-out infinite;
+  -o-animation: sky_background 50s ease-out infinite;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+}
+
 .clouds_one {
+  background: url("../images/cloud-one.png");
+  position: absolute;
+  left: 0;
+  top: 200px;
+  height: 100%;
+  width: 300%;
+  -webkit-animation: cloud_one 70s linear infinite;
+  -moz-animation: cloud_one 70s linear infinite;
+  -o-animation: cloud_one 70s linear infinite;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+}
+
+.clouds_one-storm {
   background: url("../images/cloud-one.png");
   position: absolute;
   left: 0;
@@ -81,7 +112,37 @@ html, body {
   -o-transform: translate3d(0, 0, 0);
 }
 
+.clouds_two-storm {
+  background: url("../images/cloud-two.png");
+  position: absolute;
+  left: 400px;
+  top: 0;
+  height: 100%;
+  width: 300%;
+  -webkit-animation: cloud_two 125s linear infinite;
+  -moz-animation: cloud_two 125s linear infinite;
+  -o-animation: cloud_two 125s linear infinite;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+}
+
 .clouds_three {
+  background: url("../images/cloud-three.png");
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 300%;
+  -webkit-animation: cloud_three 250s linear infinite;
+  -moz-animation: cloud_three 250s linear infinite;
+  -o-animation: cloud_three 250s linear infinite;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+}
+
+.clouds_three-storm {
   background: url("../images/cloud-three.png");
   position: absolute;
   left: 0;
@@ -283,7 +344,7 @@ a:hover {
   }
 
   #sidebar, #sidebar a {
-    padding-left:3px;
+    padding-left:9px;
   }
 }
 
@@ -750,6 +811,15 @@ a:hover {
   background-color: #444444;
   a {
   color: white;
+  display: inline;
+  margin-left: 10px;
+  height: 30px;
+  line-height: 30px;
+  vertical-align: middle;
+  }
+  .footer-links{
+  line-height: 30px;
+  vertical-align: middle;
   display: inline-block;
   }
 }
