@@ -15,7 +15,7 @@ $icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
 }
 
 body {
-  font-family: chalkduster;
+  font-family: Iowan Old Style;
 }
 
 img {
@@ -304,7 +304,7 @@ a:hover {
 
 #sidebar,
 #sidebar a {
-  font-family: chalkduster;
+  font-family: Iowan Old Style;
   color:#ffffff;
 	text-shadow:0 0 2px #000000;
   padding-left:10px;
@@ -487,7 +487,8 @@ a:hover {
   }
   .budget-me-text {
     margin-top: 20px;
-    padding-right: 20px;
+    padding-right: 40px;
+    padding-left: 25px;
     line-height: 34px;
     color: white;
   }
@@ -500,6 +501,8 @@ a:hover {
   .budget-me-tech-bar {
     position: absolute;
     bottom: 20px;
+    padding-right: 40px;
+    padding-left: 25px;
     a{
       padding-left: 20px;
     }
@@ -554,7 +557,6 @@ a:hover {
   p {
     display: inline-block;
     font-size: 18px;
-    padding-left: 20px;
   }
   a {
     display: inline-block;
@@ -579,8 +581,8 @@ a:hover {
   }
   .github-profile-text {
     margin-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
     color: white;
     line-height: 34px;
   }
@@ -596,6 +598,8 @@ a:hover {
   .github-profile-tech-bar {
     position: absolute;
     bottom: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
     a{
       padding-left: 20px;
     }
@@ -672,7 +676,8 @@ a:hover {
   }
   .recipes-text {
     margin-top: 20px;
-    padding-right: 20px;
+    padding-right: 40px;
+    padding-left: 25px;
     color: white;
     line-height: 34px;
   }
@@ -685,6 +690,8 @@ a:hover {
   .recipes-tech-bar {
     position: absolute;
     bottom: 20px;
+    padding-right: 40px;
+    padding-left: 25px;
     a{
       padding-left: 20px;
     }
@@ -737,7 +744,6 @@ a:hover {
   p {
     display: inline-block;
     font-size: 18px;
-    padding-left: 20px;
   }
   a {
     display: inline-block;
@@ -765,8 +771,8 @@ a:hover {
   }
   .majestic-thai-text {
     margin-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 40px;
+    padding-left: 25px;
     color: white;
     line-height: 34px;
   }
@@ -779,6 +785,8 @@ a:hover {
   .majestic-thai-tech-bar {
     position: absolute;
     bottom: 20px;
+    padding-right: 40px;
+    padding-left: 25px;
     a{
       padding-left: 20px;
     }
@@ -854,7 +862,8 @@ a:hover {
   }
   .sk8-site-text {
     margin-top: 20px;
-    padding-right: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
     color: white;
     line-height: 34px;
   }
@@ -867,6 +876,8 @@ a:hover {
   .sk8-site-tech-bar {
     position: absolute;
     bottom: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
     a{
       padding-left: 20px;
     }
@@ -919,7 +930,6 @@ a:hover {
   p {
     display: inline-block;
     font-size: 18px;
-    padding-left: 20px;
   }
   a {
     display: inline-block;
@@ -947,8 +957,8 @@ a:hover {
   }
   .etsy-recreation-text {
     margin-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 40px;
+    padding-left: 25px;
     color: white;
     line-height: 34px;
   }
@@ -961,6 +971,8 @@ a:hover {
   .etsy-recreation-tech-bar {
     position: absolute;
     bottom: 20px;
+    padding-right: 40px;
+    padding-left: 25px;
     a{
       padding-left: 20px;
     }
