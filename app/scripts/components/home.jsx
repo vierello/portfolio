@@ -17,17 +17,19 @@ var NavComponent = React.createClass({
             <div className="column  sidebar-offcanvas" id="sidebar">
               <ul className="nav hidden-xs" id="lg-menu">
                 <li><h2>Andrew Vitello</h2></li>
-                <li className="nav-font active"><a href="#home/"><i className="glyphicon glyphicon-home"></i> Home</a></li>
-                <li className="nav-font"><a href="#resume/"><i className="glyphicon glyphicon-list-alt"></i> Resum&eacute;</a></li>
-                <li className="nav-font"><a href="#aboutme/"><i className="glyphicon glyphicon-user"></i> About Me</a></li>
+                <li className="nav-font active"><a href="#home/"><i className="glyphicon glyphicon-home"></i>Home</a></li>
+                <li className="nav-font"><a href="#resume/"><i className="glyphicon glyphicon-list-alt"></i>Resum&eacute;</a></li>
+                <li className="nav-font"><a href="#aboutme/"><i className="glyphicon glyphicon-user"></i>About Me</a></li>
+                <li className="nav-font"><a href="#projects"><i className="glyphicon glyphicon-list"></i>Projects</a></li>
               </ul>
-              <div className="col-md-offset-2 col-md-10 col-sm-offset-2 col-sm-10  col-xs-12 storm-cloud-container">
+              <div className="col-md-offset-2 col-md-10 col-sm-offset-2 col-sm-10 hidden-xs storm-cloud-container">
                 <div className="middle-align"><p className="av-logo"><a onClick={this.props.thunderstorm}><img src='images/av_logo.png'/></a></p></div>
               </div>
               <ul className="nav visible-xs" id="xs-menu">
               	<li><a href="#home/" className="text-center"><i className="glyphicon glyphicon-home"></i></a></li>
                 <li><a href="#resume/" className="text-center"><i className="glyphicon glyphicon-list-alt"></i></a></li>
               	<li><a href="#aboutme/" className="text-center"><i className="glyphicon glyphicon-user"></i></a></li>
+                <li><a href="#projects" className="text-center"><i className="glyphicon glyphicon-list"></i></a></li>
               </ul>
             </div>
           </div>
@@ -69,7 +71,7 @@ var HomeComponent = React.createClass({
       </div>
       <div className="row title-bar">
         <div className="col-xs-12">
-          <h2>PROJECTS</h2>
+          <h2 id="projects">PROJECTS</h2>
         </div>
       </div>
       <div className="row first-bar">
@@ -105,7 +107,7 @@ var HomeComponent = React.createClass({
       <div className="row footer">
         <footer className="footer col-xs-12">
           <div className="headshot-div col-md-2 col-xs-6">
-            <img className="headshot" src="images/AV-headshot.jpg"/>
+            <p><img className="headshot" src="images/AV-headshot.jpg"/></p>
           </div>
           <ul className="col-md-2 col-xs-6 footer-links">
             <li><a href="#"><i className="media glyphicon glyphicon-user"></i>About Me</a></li>

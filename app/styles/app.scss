@@ -72,7 +72,7 @@ html, body {
   background: url("../images/cloud-one.png");
   position: absolute;
   left: 0;
-  top: 200px;
+  top: 0;
   height: 100%;
   width: 300%;
   -webkit-animation: cloud_one 90s linear infinite;
@@ -87,7 +87,7 @@ html, body {
   background: url("../images/gray-cloud-one.png");
   position: absolute;
   left: 0;
-  top: 200px;
+  top: 0;
   height: 100%;
   width: 300%;
   -webkit-animation: cloud_one 90s linear infinite;
@@ -96,33 +96,40 @@ html, body {
   -webkit-transform: translate3d(0, 0, 0);
   -moz-transform: translate3d(0, 0, 0);
   -o-transform: translate3d(0, 0, 0);
+  z-index: 1;
 }
 
 .clouds-two {
   background: url("../images/cloud-two.png");
   position: absolute;
-  left: 400px;
+  left: 0;
   top: 0;
   height: 100%;
   width: 300%;
   -webkit-animation: cloud_two 140s linear infinite;
   -moz-animation: cloud_two 140s linear infinite;
   -o-animation: cloud_two 140s linear infinite;
+  -webkit-animation-direction: reverse;
+  -moz-animation-direction: reverse;
+  -o-animation-direction: reverse;
   -webkit-transform: translate3d(0, 0, 0);
   -moz-transform: translate3d(0, 0, 0);
   -o-transform: translate3d(0, 0, 0);
 }
 
 .clouds-two-storm {
-  background: url("../images/gray-cloud-two.png");
+  background: url("../images/gray-cloud-four.png");
   position: absolute;
-  left: 400px;
+  left: 0;
   top: 0;
   height: 100%;
   width: 300%;
   -webkit-animation: cloud_two 140s linear infinite;
   -moz-animation: cloud_two 140s linear infinite;
   -o-animation: cloud_two 140s linear infinite;
+  -webkit-animation-direction: reverse;
+  -moz-animation-direction: reverse;
+  -o-animation-direction: reverse;
   -webkit-transform: translate3d(0, 0, 0);
   -moz-transform: translate3d(0, 0, 0);
   -o-transform: translate3d(0, 0, 0);
@@ -291,6 +298,10 @@ a:hover {
 	padding-top:15px;
 }
 
+#sidebar i{
+  margin-right: 5px;
+}
+
 #sidebar,
 #sidebar a {
   font-family: chalkduster;
@@ -457,7 +468,7 @@ a:hover {
   a {
     display: inline-block;
     font-size: 18px;
-    padding-left: 20px;
+    padding-left: 0;
   }
   .budget-me-title{
     background-color: #444444;
@@ -489,6 +500,9 @@ a:hover {
   .budget-me-tech-bar {
     position: absolute;
     bottom: 20px;
+    a{
+      padding-left: 20px;
+    }
   }
   .budget-me-tech {
     position: relative;
@@ -545,7 +559,7 @@ a:hover {
   a {
     display: inline-block;
     font-size: 18px;
-    padding-left: 20px;
+    padding-left: 0;
     padding-right: 0;
   }
   .github-profile-title{
@@ -582,6 +596,9 @@ a:hover {
   .github-profile-tech-bar {
     position: absolute;
     bottom: 20px;
+    a{
+      padding-left: 20px;
+    }
   }
   .github-profile-tech {
     position: relative;
@@ -636,7 +653,7 @@ a:hover {
   a {
     display: inline-block;
     font-size: 18px;
-    padding-left: 20px;
+    padding-left: 0;
   }
   .recipes-title{
     background-color: #444444;
@@ -668,6 +685,9 @@ a:hover {
   .recipes-tech-bar {
     position: absolute;
     bottom: 20px;
+    a{
+      padding-left: 20px;
+    }
   }
   .recipes-tech {
     position: relative;
@@ -722,7 +742,7 @@ a:hover {
   a {
     display: inline-block;
     font-size: 18px;
-    padding-left: 20px;
+    padding-left: 0;
     padding-right: 0;
   }
   .majestic-thai-title{
@@ -759,6 +779,9 @@ a:hover {
   .majestic-thai-tech-bar {
     position: absolute;
     bottom: 20px;
+    a{
+      padding-left: 20px;
+    }
   }
   .majestic-thai-tech {
     position: relative;
@@ -812,7 +835,7 @@ a:hover {
   a {
     display: inline-block;
     font-size: 18px;
-    padding-left: 20px;
+    padding-left: 0;
   }
   .sk8-site-title{
     background-color: #444444;
@@ -844,6 +867,9 @@ a:hover {
   .sk8-site-tech-bar {
     position: absolute;
     bottom: 20px;
+    a{
+      padding-left: 20px;
+    }
   }
   .sk8-site-tech {
     position: relative;
@@ -898,7 +924,7 @@ a:hover {
   a {
     display: inline-block;
     font-size: 18px;
-    padding-left: 20px;
+    padding-left: 0;
     padding-right: 0;
   }
   .etsy-recreation-title{
@@ -935,6 +961,9 @@ a:hover {
   .etsy-recreation-tech-bar {
     position: absolute;
     bottom: 20px;
+    a{
+      padding-left: 20px;
+    }
   }
   .etsy-recreation-tech {
     position: relative;
@@ -995,6 +1024,9 @@ a:hover {
 
 .headshot-div {
   line-height: 200px;
+  p {
+    text-align: center;
+  }
 }
 
 .headshot {
@@ -1042,5 +1074,11 @@ a:hover {
     margin-right: 0px;
     height: 25px;
     width: 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-personal-info {
+    background-color: transparent;
   }
 }
