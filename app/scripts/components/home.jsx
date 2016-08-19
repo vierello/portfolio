@@ -111,7 +111,7 @@ var HomeComponent = React.createClass({
           </div>
           <ul className="col-md-2 col-xs-6 footer-links">
             <li><a href="#"><i className="media glyphicon glyphicon-user"></i>About Me</a></li>
-            <li><a href="#"><i className="media glyphicon glyphicon-list-alt"></i>Resume</a></li>
+            <li><a href="#resume/"><i className="media glyphicon glyphicon-list-alt"></i>Resume</a></li>
             <li><a href="https://github.com/vierello"><i className="media fa fa-github-square fa-2x"></i>Github</a></li>
             <li><a href="https://www.facebook.com/vitello1"><i className="media fa fa-facebook-official fa-2x"></i>Facebook</a></li>
             <li><a href="https://twitter.com/vierello"><i className="media fa fa-twitter-square fa-2x"></i>Twitter</a></li>

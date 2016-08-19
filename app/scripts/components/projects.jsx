@@ -33,14 +33,6 @@ var BudgetMeComponent = React.createClass({
 var GithubProfileComponent = React.createClass({
   render: function(){
 
-    // var $githubImage = jQuery('.github-profile-image-link');
-    //
-    // $githubImage.responsiveDom({
-    //     appendTo: '.github-profile',
-    //
-    //     mediaQuery: '(max-width: 768px)'
-    // });
-
     return (
       <div className="github-profile">
         <div className="text-container col-md-8 col-xs-12">
