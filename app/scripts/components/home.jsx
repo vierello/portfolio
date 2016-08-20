@@ -39,6 +39,75 @@ var NavComponent = React.createClass({
   }
 })
 
+var FooterComponent = React.createClass({
+  render: function(){
+    return (
+      <div className="row">
+        <footer className="footer col-xs-12">
+          <div className="headshot-div col-md-2 col-xs-6">
+            <p><img className="headshot" src="images/AV-headshot.jpg"/></p>
+          </div>
+          <ul className="col-md-2 col-xs-6 footer-links">
+            <li><a href="#"><i className="media glyphicon glyphicon-user"></i>About Me</a></li>
+            <li><a href="#resume/"><i className="media glyphicon glyphicon-list-alt"></i>Resume</a></li>
+            <li><a href="https://github.com/vierello"><i className="media fa fa-github-square fa-2x"></i>Github</a></li>
+            <li><a href="https://www.facebook.com/vitello1"><i className="media fa fa-facebook-official fa-2x"></i>Facebook</a></li>
+            <li><a href="https://twitter.com/vierello"><i className="media fa fa-twitter-square fa-2x"></i>Twitter</a></li>
+          </ul>
+          <div className="col-md-6 col-xs-12 skills">
+            <img className="skill-image" src="./images/javascript-logo.png"/>
+            <img className="skill-image" src="./images/HTML5_logo.png"/>
+            <img className="skill-image" src="./images/CSS3-logo.png"/>
+            <img className="skill-image" src="./images/react-logo.png"/>
+            <img className="skill-image" src="./images/backbone-logo.png"/>
+            <img className="skill-image" src="./images/bootstrap-logo.png"/>
+            <img className="skill-image" src="./images/github-logo.png"/>
+            <img className="skill-image" src="./images/handlebars-logo.png"/>
+            <img className="skill-image" src="./images/jquery-logo.png"/>
+            <img className="skill-image" src="./images/Sasslogo.png"/>
+          </div>
+          <div className="col-md-2 list-unstyled" id="sidebar-footer">
+            <div className="footer-personal-info">
+              <h3>Andrew Vitello</h3>
+              <h4 className="e-mail-address hidden-s">avitello75@gmail.com</h4>
+            </div>
+          </div>
+        </footer>
+      </div>
+    )
+  }
+});
+
+var AboutMeComponent = React.createClass({
+  render: function(){
+    return (
+      <div className="row">
+        <div className="about-me col-md-offset-1 col-md-10 col-xs-12">
+          <div className="col-xs-12">
+            <h2 className="about-me-title">ABOUT ME</h2>
+          </div>
+          <div className="col-md-4 col-xs-12">
+            <img className="about-me-headshot" src="images/AV-headshot.jpg"/>
+          </div>
+          <div className="col-md-8 col-xs-12">
+            <p className="about-me-text">I am a very detail oriented front end web developer.
+              I just graduated from the Iron Yards highly intensive 12 week front
+              end engineering program. I am ready to join a team with good senior
+              leadership and room for growth, where I feel like I can be a real
+              asset while also learning every day.
+              <br />
+              <br />
+              I am making a career change from accounting to web development,
+              which means that I will have a unique view on application development
+              as it relates to profitability and cost versus benefit of designing
+              applications. </p>
+          </div>
+        </div>
+      </div>
+    )
+  }
+});
+
 var HomeComponent = React.createClass({
   thunderstorm: function(){
     if(jQuery('.sky').hasClass('sky')){
@@ -69,61 +138,45 @@ var HomeComponent = React.createClass({
         // </div>
         }
       </div>
-      <div className="row title-bar">
-        <div className="col-xs-12">
-          <h2 id="projects">PROJECTS</h2>
-        </div>
-      </div>
-      <div className="row first-bar">
-        <div className="projects">
-          <BudgetMeComponent />
-        </div>
-      </div>
-      <div className="row second-bar">
-        <div className="projects">
-          <GithubProfileComponent />
-        </div>
-      </div>
-      <div className="row third-bar">
-        <div className="projects">
-          <RecipesComponent />
-        </div>
-      </div>
-      <div className="row fourth-bar">
-        <div className="projects">
-          <MajesticThaiComponent />
-        </div>
-      </div>
-      <div className="row fifth-bar">
-        <div className="projects">
-          <Sk8SiteComponent />
-        </div>
-      </div>
-      <div className="row sixth-bar">
-        <div className="projects">
-          <EtsyRecreationComponent />
-        </div>
-      </div>
-      <div className="row footer">
-        <footer className="footer col-xs-12">
-          <div className="headshot-div col-md-2 col-xs-6">
-            <p><img className="headshot" src="images/AV-headshot.jpg"/></p>
+      <AboutMeComponent/>
+      <div className="col-md-offset-1 col-md-10">
+        <div className="row title-bar">
+          <div className="col-xs-12">
+            <h2 id="projects">PROJECTS</h2>
           </div>
-          <ul className="col-md-2 col-xs-6 footer-links">
-            <li><a href="#"><i className="media glyphicon glyphicon-user"></i>About Me</a></li>
-            <li><a href="#resume/"><i className="media glyphicon glyphicon-list-alt"></i>Resume</a></li>
-            <li><a href="https://github.com/vierello"><i className="media fa fa-github-square fa-2x"></i>Github</a></li>
-            <li><a href="https://www.facebook.com/vitello1"><i className="media fa fa-facebook-official fa-2x"></i>Facebook</a></li>
-            <li><a href="https://twitter.com/vierello"><i className="media fa fa-twitter-square fa-2x"></i>Twitter</a></li>
-          </ul>
-          <div className="col-md-offset-4 col-md-2 list-unstyled" id="sidebar-footer">
-            <div className="footer-personal-info">
-              <h3>Andrew Vitello</h3>
-              <h4 className="e-mail-address hidden-s">avitello75@gmail.com</h4>
-            </div>
+        </div>
+        <div className="row first-bar">
+          <div className="projects">
+            <BudgetMeComponent />
           </div>
-        </footer>
+        </div>
+        <div className="row second-bar">
+          <div className="projects">
+            <GithubProfileComponent />
+          </div>
+        </div>
+        <div className="row third-bar">
+          <div className="projects">
+            <RecipesComponent />
+          </div>
+        </div>
+        <div className="row fourth-bar">
+          <div className="projects">
+            <MajesticThaiComponent />
+          </div>
+        </div>
+        <div className="row fifth-bar">
+          <div className="projects">
+            <Sk8SiteComponent />
+          </div>
+        </div>
+        <div className="row sixth-bar">
+          <div className="projects">
+            <EtsyRecreationComponent />
+          </div>
+        </div>
       </div>
+      <FooterComponent/>
     </div>
     )
   }

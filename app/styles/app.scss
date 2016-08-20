@@ -414,6 +414,31 @@ a:hover {
   }
 }
 
+//About Me Styles---------------------------------------------------------------
+
+.about-me {
+  height: 400px;
+  margin-top: 10px;
+}
+
+.about-me-title {
+  background: white;
+  padding-top: 10px;
+  padding-bottom: 18px;
+  text-align: center;
+  color: #444444;
+  font-size: 44px;
+}
+
+.about-me-headshot {
+  height: 400px;
+  width: 400px;
+}
+
+.about-me-text {
+  font-size: 18px;
+}
+
 //Projects Styles---------------------------------------------------------------
 
 .title-bar {
@@ -572,7 +597,7 @@ a:hover {
     margin-top: 0;
     top: 0;
     left: 0;
-    margin-left: -15px;
+    //margin-left: -15px;
     p {
       padding-left: 30px;
       padding-top: 10px;
@@ -759,7 +784,7 @@ a:hover {
     margin-top: 0;
     top: 0;
     left: 0;
-    margin-left: -15px;
+    //margin-left: -15px;
     p {
       padding-left: 30px;
       padding-top: 10px;
@@ -772,7 +797,7 @@ a:hover {
   .majestic-thai-text {
     margin-top: 20px;
     padding-right: 40px;
-    padding-left: 25px;
+    padding-left: 40px;
     color: white;
     line-height: 34px;
   }
@@ -786,7 +811,7 @@ a:hover {
     position: absolute;
     bottom: 20px;
     padding-right: 40px;
-    padding-left: 25px;
+    padding-left: 40px;
     a{
       padding-left: 20px;
     }
@@ -863,7 +888,7 @@ a:hover {
   .sk8-site-text {
     margin-top: 20px;
     padding-right: 40px;
-    padding-left: 40px;
+    padding-left: 25px;
     color: white;
     line-height: 34px;
   }
@@ -877,7 +902,7 @@ a:hover {
     position: absolute;
     bottom: 20px;
     padding-right: 40px;
-    padding-left: 40px;
+    padding-left: 25px;
     a{
       padding-left: 20px;
     }
@@ -945,7 +970,7 @@ a:hover {
     margin-top: 0;
     top: 0;
     left: 0;
-    margin-left: -15px;
+    //margin-left: -15px;
     p {
       padding-left: 30px;
       padding-top: 10px;
@@ -958,7 +983,7 @@ a:hover {
   .etsy-recreation-text {
     margin-top: 20px;
     padding-right: 40px;
-    padding-left: 25px;
+    padding-left: 40px;
     color: white;
     line-height: 34px;
   }
@@ -972,7 +997,7 @@ a:hover {
     position: absolute;
     bottom: 20px;
     padding-right: 40px;
-    padding-left: 25px;
+    padding-left: 40px;
     a{
       padding-left: 20px;
     }
@@ -1038,6 +1063,7 @@ a:hover {
   line-height: 200px;
   p {
     text-align: center;
+    margin-bottom: 0;
   }
 }
 
@@ -1056,6 +1082,16 @@ a:hover {
   width: 30px;
   font-size: 25px;
   padding-top: 5px;
+}
+
+.skills {
+  line-height: 200px;
+}
+
+.skill-image {
+  height: 70px;
+  width: 70px;
+  margin: 0 5px;
 }
 
 .footer-personal-info {
@@ -1090,6 +1126,19 @@ a:hover {
 }
 
 @media (max-width: 768px) {
+  #sidebar-footer {
+    height: 400px;
+  }
+
+  .footer {
+    height: 600px;
+  }
+
+  .skill-image {
+    height: 50px;
+    width: 50px;
+  }
+
   .footer-personal-info {
     background-color: transparent;
   }
