@@ -439,6 +439,18 @@ a:hover {
   font-size: 18px;
 }
 
+@media (max-width: 768px) {
+  .about-me {
+  height: 800px;
+    .about-me-text {
+      margin-top: 10px;
+    }
+    p {
+      font-size: 12px;
+    }
+  }
+}
+
 //Projects Styles---------------------------------------------------------------
 
 .title-bar {
@@ -552,11 +564,12 @@ a:hover {
   .budget-me{
     p {
       font-size: 12px;
-      padding-left: 20px;
+      //padding-left: 20px;
     }
     a {
       font-size: 12px;
-      padding-left: 10px;
+      //padding-left: 10px;
+      padding-right: 0;
     }
     .budget-me-text {
       line-height: 20px;
@@ -647,11 +660,12 @@ a:hover {
     //flex-direction: row-reverse;
     p {
       font-size: 12px;
-      padding-left: 20px;
+      //padding-left: 20px;
     }
     a {
       font-size: 12px;
-      padding-left: 10px;
+      //padding-left: 10px;
+      padding-right: 0;
     }
     .github-profile-text {
       line-height: 20px;
@@ -741,11 +755,12 @@ a:hover {
   .recipes{
     p {
       font-size: 12px;
-      padding-left: 20px;
+      //padding-left: 20px;
     }
     a {
       font-size: 12px;
-      padding-left: 10px;
+      //padding-left: 10px;
+      padding-right: 0;
     }
     .recipes-text {
       line-height: 20px;
@@ -836,11 +851,12 @@ a:hover {
   .majestic-thai{
     p {
       font-size: 12px;
-      padding-left: 20px;
+      //padding-left: 20px;
     }
     a {
       font-size: 12px;
-      padding-left: 10px;
+      //padding-left: 10px;
+      padding-right: 0;
     }
     .majestic-thai-text {
       line-height: 20px;
@@ -927,11 +943,12 @@ a:hover {
   .sk8-site{
     p {
       font-size: 12px;
-      padding-left: 20px;
+      //padding-left: 20px;
     }
     a {
       font-size: 12px;
-      padding-left: 10px;
+      //padding-left: 10px;
+      padding-right: 0;
     }
     .sk8-site-text {
       line-height: 20px;
@@ -1022,11 +1039,12 @@ a:hover {
   .etsy-recreation{
     p {
       font-size: 12px;
-      padding-left: 20px;
+      //padding-left: 20px;
     }
     a {
       font-size: 12px;
-      padding-left: 10px;
+      //padding-left: 10px;
+      padding-right: 0;
     }
     .etsy-recreation-text {
       line-height: 20px;

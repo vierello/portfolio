@@ -4,8 +4,8 @@ var BudgetMeComponent = React.createClass({
   render: function(){
     return (
       <div className="budget-me">
-        <a className="col-md-4 col-xs-12" href="https://vierello.github.io/budget-me/"><img className="budget-me-image" src="./images/budget-me.png" /></a>
-        <div className="text-container col-md-8 col-xs-12">
+        <a className="col-md-5 col-xs-12" href="https://vierello.github.io/budget-me/"><img className="budget-me-image" src="./images/budget-me.png" /></a>
+        <div className="text-container col-md-7 col-xs-12">
           <h1 className="budget-me-title"><p>Budget Me</p></h1>
           <p className="budget-me-text">Everyone needs a budget! From the time I
               started earning my own money while working my first job, until today,
@@ -35,8 +35,8 @@ var GithubProfileComponent = React.createClass({
 
     return (
       <div className="github-profile">
-        <div className="text-container col-md-8 col-xs-12">
-          <h1 className="github-profile-title"><p>Github Profile</p></h1>
+        <div className="text-container col-md-7 col-xs-12">
+          <h1 className="github-profile-title"><p>Github Profile Recreation</p></h1>
           <p className="github-profile-text">For this project I was tasked to recreate
               my Github Profile as closely as possible. We were not required to make
               it fully functional, though I tried to make it as functional as I could
@@ -51,7 +51,7 @@ var GithubProfileComponent = React.createClass({
             <a className="github-profile-links" href="http://sass-lang.com/">Sass</a>
           </div>
         </div>
-          <a className="github-profile-image-link col-md-4 col-xs-12" href="http://vierello.github.io/4.4-github-profile/"><img className="github-profile-image" src="./images/github-profile.png" /></a>
+          <a className="github-profile-image-link col-md-5 col-xs-12" href="http://vierello.github.io/4.4-github-profile/"><img className="github-profile-image" src="./images/github-profile.png" /></a>
       </div>
     )
   }
@@ -61,8 +61,8 @@ var RecipesComponent = React.createClass({
   render: function(){
     return (
       <div className="recipes">
-        <a className="col-md-4 col-xs-12" href="https://vierello.github.io/8.4-recipes/"><img className="recipes-image" src="./images/recipes.png" /></a>
-        <div className="text-container col-md-8 col-xs-12">
+        <a className="col-md-5 col-xs-12" href="https://vierello.github.io/8.4-recipes/"><img className="recipes-image" src="./images/recipes.png" /></a>
+        <div className="text-container col-md-7 col-xs-12">
           <h1 className="recipes-title"><p>Recipes</p></h1>
           <p className="recipes-text">For this project the goal was to create a
               recipe book that has a way to adjust recipes based on serving size.
@@ -90,7 +90,7 @@ var MajesticThaiComponent = React.createClass({
   render: function(){
     return (
       <div className="majestic-thai">
-        <div className="text-container col-md-8 col-xs-12">
+        <div className="text-container col-md-7 col-xs-12">
           <h1 className="majestic-thai-title"><p>Majestic Thai</p></h1>
           <p className="majestic-thai-text">Majestic Thai was a project where we
               had to create a new menu for a thai restaurant using React and Backbone.
@@ -107,7 +107,7 @@ var MajesticThaiComponent = React.createClass({
             <a className="majestic-thai-links" href="https://jquery.com/">JQuery</a>
           </div>
         </div>
-        <a className="col-md-4 col-xs-12" href="https://vierello.github.io/7.4-majestic-thai/"><img className="majestic-thai-image" src="./images/majestic-thai.png" /></a>
+        <a className="col-md-5 col-xs-12" href="https://vierello.github.io/7.4-majestic-thai/"><img className="majestic-thai-image" src="./images/majestic-thai.png" /></a>
       </div>
     )
   }
@@ -117,8 +117,8 @@ var Sk8SiteComponent = React.createClass({
   render: function(){
     return (
       <div className="sk8-site">
-        <a className="col-md-4 col-xs-12" href="http://vierello.github.io/2.2-sk8-site/"><img className="sk8-site-image" src="./images/sk8-site.png" /></a>
-        <div className="text-container col-md-8 col-xs-12">
+        <a className="col-md-5 col-xs-12" href="http://vierello.github.io/2.2-sk8-site/"><img className="sk8-site-image" src="./images/sk8-site.png" /></a>
+        <div className="text-container col-md-7 col-xs-12">
           <h1 className="sk8-site-title"><p>Sk8 Site</p></h1>
           <p className="sk8-site-text">The Sk8 Site project had us use only css,
               html and sass to recreate a design composition provided. We also had
@@ -140,7 +140,7 @@ var EtsyRecreationComponent = React.createClass({
   render: function(){
     return (
       <div className="etsy-recreation">
-        <div className="text-container col-md-8 col-xs-12">
+        <div className="text-container col-md-7 col-xs-12">
           <h1 className="etsy-recreation-title"><p>Etsy Recreation</p></h1>
           <p className="etsy-recreation-text">The Etsy Recreation project involved
               looking at the Etsy website to try to indentically recreate the page
@@ -153,7 +153,7 @@ var EtsyRecreationComponent = React.createClass({
             <a className="etsy-recreation-links" href="http://backbonejs.org/">Backbone</a>
           </div>
         </div>
-        <a className="col-md-4 col-xs-12" href="http://vierello.github.io/4.2-etsy-recreation/"><img className="etsy-recreation-image" src="./images/etsy.png" /></a>
+        <a className="col-md-5 col-xs-12" href="http://vierello.github.io/4.2-etsy-recreation/"><img className="etsy-recreation-image" src="./images/etsy.png" /></a>
       </div>
     )
   }

@@ -4,7 +4,6 @@ var Backbone = require('backbone');
 
 var HomeComponent = require('./components/home.jsx').HomeComponent;
 var ResumeComponent = require('./components/resume.jsx');
-var AboutMeComponent = require('./components/about_me.jsx').AboutMeComponent;
 
 
 var Router = Backbone.Router.extend({
@@ -12,7 +11,6 @@ var Router = Backbone.Router.extend({
     '': 'index',
     'home/': 'index',
     'resume/': 'resume',
-    'aboutme/': 'aboutMe'
   },
 
   index: function() {
@@ -25,13 +23,6 @@ var Router = Backbone.Router.extend({
   resume: function() {
     ReactDOM.render(
       React.createElement(ResumeComponent, {router: this}),
-      document.getElementById('container')
-    )
-  },
-
-  aboutMe: function() {
-    ReactDOM.render(
-      React.createElement(AboutMeComponent, {router: this}),
       document.getElementById('container')
     )
   }
