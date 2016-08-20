@@ -90,13 +90,13 @@ var AboutMeComponent = React.createClass({
             <img className="about-me-headshot" src="images/AV-headshot.jpg"/>
           </div>
           <div className="col-md-8 col-xs-12">
-            <p className="about-me-text">I am a very detail oriented front end web developer.
-              I just graduated from the Iron Yard&#39;s highly intensive 12 week front
-              end engineering program. While at The Iron Yard I not only learned
-              multiple technologies and skills, I learned how to learn and think
-              like a developer, and how to use all the resources provided to me to
-              find answers or solutions to almost all of the problems anyone would
-              run into while developing applications.
+            <p className="about-me-text">Hi, I&#39;m Andy Vitello, I am a very detail
+              oriented front end web developer. I just graduated from the Iron Yard&#39;s
+              highly intensive 12 week front end engineering program. While at
+              The Iron Yard I not only learned multiple technologies and skills,
+              I learned how to learn and think like a developer, and how to use
+              all the resources provided to me to find answers or solutions to
+              almost all of the problems anyone wouldrun into while developing applications.
               <br />
               <br />
               I am making a career change from accounting to web development,
