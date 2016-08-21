@@ -2,8 +2,8 @@ var React = require('react');
 var ReactDOM = require('react-dom');
 var Backbone = require('backbone');
 
-// var HomeComponent = require('./components/home.jsx').HomeComponent;
-// var ResumeComponent = require('./components/resume.jsx');
+var HomeComponent = require('./components/home.jsx').HomeComponent;
+var ResumeComponent = require('./components/resume.jsx');
 
 
 var Router = Backbone.Router.extend({
