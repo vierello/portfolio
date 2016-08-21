@@ -10,19 +10,19 @@ var Router = Backbone.Router.extend({
   routes: {
     '': 'index',
     'home/': 'index',
-    'resume/': 'resume',
+    'resume/': 'resume'
   },
 
   index: function() {
     ReactDOM.render(
-      React.createElement(HomeComponent, {router: this}),
+      React.createElement(HomeComponent),
       document.getElementById('container')
     )
   },
 
   resume: function() {
     ReactDOM.render(
-      React.createElement(ResumeComponent, {router: this}),
+      React.createElement(ResumeComponent),
       document.getElementById('container')
     )
   }

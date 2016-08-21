@@ -187,6 +187,5 @@ var HomeComponent = React.createClass({
 });
 
 module.exports = {
-  'HomeComponent': HomeComponent,
-  'NavComponent': NavComponent
+  'HomeComponent': HomeComponent
 };
