@@ -408,9 +408,21 @@ a:hover {
   font-size: 18px;
 }
 
+@media (max-width: 992px) {
+  .about-me {
+  height: auto;
+    .about-me-text {
+      margin-top: 10px;
+    }
+    p {
+      font-size: 12px;
+    }
+  }
+}
+
 @media (max-width: 768px) {
   .about-me {
-  height: 800px;
+  height: auto;
     .about-me-text {
       margin-top: 10px;
     }
@@ -522,9 +534,27 @@ a:hover {
   }
 }
 
+@media (max-width: 992px) {
+  .first-bar{
+    height: auto;
+  }
+  .budget-me{
+    p {
+      font-size: 12px;
+    }
+    a {
+      font-size: 12px;
+      padding-right: 0;
+    }
+    .budget-me-text {
+      line-height: 20px;
+    }
+  }
+}
+
 @media (max-width: 768px) {
   .first-bar{
-    height: 800px;
+    height: auto;
   }
   .budget-me{
     p {
@@ -611,6 +641,24 @@ a:hover {
   }
 }
 
+@media (max-width: 992px) {
+  .github-profile {
+    p {
+      font-size: 12px;
+    }
+    a {
+      font-size: 12px;
+      padding-right: 0;
+    }
+    .github-profile-text {
+      line-height: 20px;
+    }
+  }
+  .second-bar{
+    height: auto;
+  }
+}
+
 @media (max-width: 768px) {
   .github-profile {
     p {
@@ -625,7 +673,7 @@ a:hover {
     }
   }
   .second-bar{
-    height: 800px;
+    height: auto;
   }
 }
 
@@ -697,9 +745,27 @@ a:hover {
   }
 }
 
+@media (max-width: 992px) {
+  .third-bar{
+    height: auto;
+  }
+  .recipes{
+    p {
+      font-size: 12px;
+    }
+    a {
+      font-size: 12px;
+      padding-right: 0;
+    }
+    .recipes-text {
+      line-height: 20px;
+    }
+  }
+}
+
 @media (max-width: 768px) {
   .third-bar{
-    height: 800px;
+    height: auto;
   }
   .recipes{
     p {
@@ -786,9 +852,27 @@ a:hover {
   }
 }
 
+@media (max-width: 992px) {
+  .fourth-bar{
+    height: auto;
+  }
+  .majestic-thai{
+    p {
+      font-size: 12px;
+    }
+    a {
+      font-size: 12px;
+      padding-right: 0;
+    }
+    .majestic-thai-text {
+      line-height: 20px;
+    }
+  }
+}
+
 @media (max-width: 768px) {
   .fourth-bar{
-    height: 800px;
+    height: auto;
   }
   .majestic-thai{
     p {
@@ -872,9 +956,27 @@ a:hover {
   }
 }
 
+@media (max-width: 992px) {
+  .fifth-bar{
+    height: auto;
+  }
+  .sk8-site{
+    p {
+      font-size: 12px;
+    }
+    a {
+      font-size: 12px;
+      padding-right: 0;
+    }
+    .sk8-site-text {
+      line-height: 20px;
+    }
+  }
+}
+
 @media (max-width: 768px) {
   .fifth-bar{
-    height: 800px;
+    height: auto;
   }
   .sk8-site{
     p {
@@ -961,9 +1063,27 @@ a:hover {
   }
 }
 
+@media (max-width: 992px) {
+  .sixth-bar{
+    height: auto;
+  }
+  .etsy-recreation{
+    p {
+      font-size: 12px;
+    }
+    a {
+      font-size: 12px;
+      padding-right: 0;
+    }
+    .etsy-recreation-text {
+      line-height: 20px;
+    }
+  }
+}
+
 @media (max-width: 768px) {
   .sixth-bar{
-    height: 800px;
+    height: auto;
   }
   .etsy-recreation{
     p {
@@ -1006,6 +1126,7 @@ a:hover {
 
 .headshot-div {
   line-height: 200px;
+  position: relative;
   p {
     text-align: center;
     margin-bottom: 0;
@@ -1013,6 +1134,8 @@ a:hover {
 }
 
 .headshot {
+  position: relative;
+  z-index: 10;
   height: 130px;
   width: 130px;
   border-radius: 65px;
@@ -1030,7 +1153,7 @@ a:hover {
 }
 
 .skills {
-  line-height: 200px;
+  margin-top: 40px;
 }
 
 .skill-image {
@@ -1055,9 +1178,10 @@ a:hover {
 }
 
 @media (max-width: 1300px) {
+  .footer {
+    height: auto;
+  }
   #sidebar-footer {
-    background-color:#444444;
-    position:absolute;
     h3,
     h4 {
       font-size: 10px;
@@ -1070,13 +1194,35 @@ a:hover {
   }
 }
 
+@media (max-width: 992px) {
+  .footer {
+    height: auto;
+  }
+  #sidebar-footer {
+    background-color:#444444;
+    position:absolute;
+    h3,
+    h4 {
+      font-size: 10px;
+      position: absolute;
+      right: 10px;
+    }
+  }
+  .media {
+    margin-right: 0px;
+    height: 25px;
+    width: 25px;
+  }
+}
+
+
 @media (max-width: 768px) {
   #sidebar-footer {
-    height: 400px;
+    height: auto;
   }
 
   .footer {
-    height: 600px;
+    height: auto;
   }
 
   .skill-image {
@@ -1086,6 +1232,7 @@ a:hover {
 
   .footer-personal-info {
     background-color: transparent;
+    float: none;
   }
 }
 
