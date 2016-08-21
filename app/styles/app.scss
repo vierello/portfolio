@@ -53,7 +53,6 @@ html, body {
 
 .sky-storm {
   height: 100vh;
-  //background: #131313;
   background-image: url("../images/dark-cloud-background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -166,21 +165,6 @@ html, body {
   -o-transform: translate3d(0, 0, 0);
 }
 
-// @-webkit-keyframes sky_background {
-//   0% {
-//     background: #007fd5;
-//     color: #007fd5;
-//   }
-//   50% {
-//     background: #000;
-//     color: #a3d9ff;
-//   }
-//   100% {
-//     background: #007fd5;
-//     color: #007fd5;
-//   }
-// }
-
 @-webkit-keyframes cloud_one {
   0% {
     left: 0;
@@ -207,21 +191,6 @@ html, body {
     left: -200%;
   }
 }
-
-// @-moz-keyframes sky_background {
-//   0% {
-//     background: #007fd5;
-//     color: #007fd5;
-//   }
-//   50% {
-//     background: #000;
-//     color: #a3d9ff;
-//   }
-//   100% {
-//     background: #007fd5;
-//     color: #007fd5;
-//   }
-// }
 
 @-moz-keyframes cloud_one {
   0% {
@@ -489,10 +458,6 @@ a:hover {
   height: 400px;
   padding: 0;
   background-color: #007fd5;
-  // background-image:-webkit-linear-gradient(top, white, #007fd5);
-  // background-image:-moz-linear-gradient(top, white, #007fd5);
-  // background-image:-o-linear-gradient(top, white, #007fd5);
-  // background-image: linear-gradient(to bottom, white, #007fd5);
 }
 
 .budget-me {
@@ -564,11 +529,9 @@ a:hover {
   .budget-me{
     p {
       font-size: 12px;
-      //padding-left: 20px;
     }
     a {
       font-size: 12px;
-      //padding-left: 10px;
       padding-right: 0;
     }
     .budget-me-text {
@@ -581,17 +544,11 @@ a:hover {
   height: 400px;
   padding: 0;
   background-color: #007fd5;
-  // background-image:-webkit-linear-gradient(top, white, #007fd5);
-  // background-image:-moz-linear-gradient(top, white, #007fd5);
-  // background-image:-o-linear-gradient(top, white, #007fd5);
-  // background-image: linear-gradient(to bottom, white, #007fd5);
 }
 
 .github-profile {
   height: 400px;
   position: relative;
-  //display: flex;
-  //flex-direction: row;
   p {
     display: inline-block;
     font-size: 18px;
@@ -610,7 +567,6 @@ a:hover {
     margin-top: 0;
     top: 0;
     left: 0;
-    //margin-left: -15px;
     p {
       padding-left: 30px;
       padding-top: 10px;
@@ -657,14 +613,11 @@ a:hover {
 
 @media (max-width: 768px) {
   .github-profile {
-    //flex-direction: row-reverse;
     p {
       font-size: 12px;
-      //padding-left: 20px;
     }
     a {
       font-size: 12px;
-      //padding-left: 10px;
       padding-right: 0;
     }
     .github-profile-text {
@@ -680,10 +633,6 @@ a:hover {
   height: 400px;
   padding: 0;
   background-color: #007fd5;
-  // background-image:-webkit-linear-gradient(top, white, #007fd5);
-  // background-image:-moz-linear-gradient(top, white, #007fd5);
-  // background-image:-o-linear-gradient(top, white, #007fd5);
-  // background-image: linear-gradient(to bottom, white, #007fd5);
 }
 
 .recipes {
@@ -755,11 +704,9 @@ a:hover {
   .recipes{
     p {
       font-size: 12px;
-      //padding-left: 20px;
     }
     a {
       font-size: 12px;
-      //padding-left: 10px;
       padding-right: 0;
     }
     .recipes-text {
@@ -772,10 +719,6 @@ a:hover {
   height: 400px;
   padding: 0;
   background-color: #007fd5;
-  // background-image:-webkit-linear-gradient(top, white, #007fd5);
-  // background-image:-moz-linear-gradient(top, white, #007fd5);
-  // background-image:-o-linear-gradient(top, white, #007fd5);
-  // background-image: linear-gradient(to bottom, white, #007fd5);
 }
 
 .majestic-thai {
@@ -799,7 +742,6 @@ a:hover {
     margin-top: 0;
     top: 0;
     left: 0;
-    //margin-left: -15px;
     p {
       padding-left: 30px;
       padding-top: 10px;
@@ -851,11 +793,9 @@ a:hover {
   .majestic-thai{
     p {
       font-size: 12px;
-      //padding-left: 20px;
     }
     a {
       font-size: 12px;
-      //padding-left: 10px;
       padding-right: 0;
     }
     .majestic-thai-text {
@@ -868,10 +808,6 @@ a:hover {
   height: 400px;
   padding: 0;
   background-color: #007fd5;
-  // background-image:-webkit-linear-gradient(top, white, #007fd5);
-  // background-image:-moz-linear-gradient(top, white, #007fd5);
-  // background-image:-o-linear-gradient(top, white, #007fd5);
-  // background-image: linear-gradient(to bottom, white, #007fd5);
 }
 
 .sk8-site {
@@ -943,11 +879,9 @@ a:hover {
   .sk8-site{
     p {
       font-size: 12px;
-      //padding-left: 20px;
     }
     a {
       font-size: 12px;
-      //padding-left: 10px;
       padding-right: 0;
     }
     .sk8-site-text {
@@ -960,10 +894,6 @@ a:hover {
   height: 400px;
   padding: 0;
   background-color: #007fd5;
-  // background-image:-webkit-linear-gradient(top, white, #007fd5);
-  // background-image:-moz-linear-gradient(top, white, #007fd5);
-  // background-image:-o-linear-gradient(top, white, #007fd5);
-  // background-image: linear-gradient(to bottom, white, #007fd5);
 }
 
 .etsy-recreation {
@@ -987,7 +917,6 @@ a:hover {
     margin-top: 0;
     top: 0;
     left: 0;
-    //margin-left: -15px;
     p {
       padding-left: 30px;
       padding-top: 10px;
@@ -1039,11 +968,9 @@ a:hover {
   .etsy-recreation{
     p {
       font-size: 12px;
-      //padding-left: 20px;
     }
     a {
       font-size: 12px;
-      //padding-left: 10px;
       padding-right: 0;
     }
     .etsy-recreation-text {

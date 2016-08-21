@@ -137,10 +137,6 @@ var HomeComponent = React.createClass({
           <div className="clouds-two col-xs-12"></div>
           <div className="clouds-three col-xs-12"></div>
         </div>
-        {// <div className="col-md-offset-2 col-md-10 col-sm-offset-2 col-sm-10  col-xs-12 storm-cloud-container">
-        //   <div className="storm-cloud"><p className="av-logo"><a onClick={this.thunderstorm}><img src='images/av_logo.png'/></a></p></div>
-        // </div>
-        }
       </div>
       <AboutMeComponent/>
       <div className="col-md-offset-1 col-md-10">
