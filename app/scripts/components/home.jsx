@@ -17,19 +17,19 @@ var NavComponent = React.createClass({
             <div className="column  sidebar-offcanvas" id="sidebar">
               <ul className="nav hidden-xs" id="lg-menu">
                 <li><h2>Andrew Vitello</h2></li>
-                <li className="nav-font active"><a href="#home/"><i className="glyphicon glyphicon-home"></i>Home</a></li>
-                <li className="nav-font"><a href="#resume/"><i className="glyphicon glyphicon-list-alt"></i>Resum&eacute;</a></li>
-                <li className="nav-font"><a href="#aboutme"><i className="glyphicon glyphicon-user"></i>About Me</a></li>
-                <li className="nav-font"><a href="#projects"><i className="glyphicon glyphicon-list"></i>Projects</a></li>
+                <li className="nav-font active"><a href="#home/"><span><i className="glyphicon glyphicon-home"></i></span>Home</a></li>
+                <li className="nav-font"><a href="#resume/"><span><i className="glyphicon glyphicon-list-alt"></i></span>Resum&eacute;</a></li>
+                <li className="nav-font"><a href="#aboutme"><span><i className="glyphicon glyphicon-user"></i></span>About Me</a></li>
+                <li className="nav-font"><a href="#projects"><span><i className="glyphicon glyphicon-list"></i></span>Projects</a></li>
               </ul>
               <div className="col-md-offset-2 col-md-10 col-sm-offset-2 col-sm-10 hidden-xs storm-cloud-container">
                 <div className="middle-align"><p className="av-logo"><a onClick={this.props.thunderstorm}><img src='images/av_logo.png'/></a></p></div>
               </div>
               <ul className="nav visible-xs" id="xs-menu">
-              	<li><a href="#home/" className="text-center"><i className="glyphicon glyphicon-home"></i></a></li>
-                <li><a href="#resume/" className="text-center"><i className="glyphicon glyphicon-list-alt"></i></a></li>
-              	<li><a href="#aboutme/" className="text-center"><i className="glyphicon glyphicon-user"></i></a></li>
-                <li><a href="#projects" className="text-center"><i className="glyphicon glyphicon-list"></i></a></li>
+              	<li><a href="#home/" className="text-center"><span><i className="glyphicon glyphicon-home"></i></span></a></li>
+                <li><a href="#resume/" className="text-center"><span><i className="glyphicon glyphicon-list-alt"></i></span></a></li>
+              	<li><a href="#aboutme/" className="text-center"><span><i className="glyphicon glyphicon-user"></i></span></a></li>
+                <li><a href="#projects" className="text-center"><span><i className="glyphicon glyphicon-list"></i></span></a></li>
               </ul>
             </div>
           </div>
@@ -48,7 +48,7 @@ var FooterComponent = React.createClass({
             <p><img className="headshot" src="images/AV-headshot.jpg"/></p>
           </div>
           <ul className="col-md-2 col-xs-6 footer-links">
-            <li><a href="#resume/"><i className="media glyphicon glyphicon-list-alt"></i>Resume</a></li>
+            <li><a href="#resume/"><span><i className="media glyphicon glyphicon-list-alt"></i></span>Resume</a></li>
             <li><a href="https://www.linkedin.com/in/andrewvitello?trk=nav_responsive_tab_profile"><i className="media fa fa-linkedin-square fa-2x"></i>Linked In</a></li>
             <li><a href="https://github.com/vierello"><i className="media fa fa-github-square fa-2x"></i>Github</a></li>
             <li><a href="https://www.facebook.com/vitello1"><i className="media fa fa-facebook-official fa-2x"></i>Facebook</a></li>
