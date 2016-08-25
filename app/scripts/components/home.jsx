@@ -44,32 +44,36 @@ var FooterComponent = React.createClass({
     return (
       <div className="row">
         <footer className="footer col-xs-12">
-          <div className="headshot-div col-md-2 col-xs-6">
-            <p><img className="headshot" src="images/AV-headshot.jpg"/></p>
-          </div>
-          <ul className="col-md-2 col-xs-6 footer-links">
-            <li><a href="#resume/"><i className="media fa fa-file-text-o fa-2x" aria-hidden="true"></i>Resume</a></li>
-            <li><a href="https://www.linkedin.com/in/andrewvitello?trk=nav_responsive_tab_profile"><i className="media fa fa-linkedin-square fa-2x"></i>Linked In</a></li>
-            <li><a href="https://github.com/vierello"><i className="media fa fa-github-square fa-2x"></i>Github</a></li>
-            <li><a href="https://www.facebook.com/vitello1"><i className="media fa fa-facebook-official fa-2x"></i>Facebook</a></li>
-            <li><a href="https://twitter.com/vierello"><i className="media fa fa-twitter-square fa-2x"></i>Twitter</a></li>
-          </ul>
-          <div className="col-md-6 col-xs-12 skills">
-            <img className="skill-image" src="./images/javascript-logo.png"/>
-            <img className="skill-image" src="./images/HTML5_logo.png"/>
-            <img className="skill-image" src="./images/CSS3-logo.png"/>
-            <img className="skill-image" src="./images/react-logo.png"/>
-            <img className="skill-image" src="./images/backbone-logo.png"/>
-            <img className="skill-image" src="./images/bootstrap-logo.png"/>
-            <img className="skill-image" src="./images/github-logo.png"/>
-            <img className="skill-image" src="./images/handlebars-logo.png"/>
-            <img className="skill-image" src="./images/jquery-logo.png"/>
-            <img className="skill-image" src="./images/sass-logo.png"/>
-          </div>
-          <div className="col-md-2 col-xs-4 list-unstyled" id="sidebar-footer">
-            <div className="footer-personal-info">
-              <h3>Andrew Vitello</h3>
-              <h4 className="e-mail-address hidden-s">avitello75@gmail.com</h4>
+          <div className="footer-row">
+            <div className="headshot-div col-md-2 col-xs-6">
+              <p><img className="headshot" src="images/AV-headshot.jpg"/></p>
+            </div>
+            <ul className="col-md-2 col-xs-6 footer-links">
+              <li><a href="#resume/"><i className="media fa fa-file-text-o fa-2x" aria-hidden="true"></i>Resume</a></li>
+              <li><a href="https://www.linkedin.com/in/andrewvitello?trk=nav_responsive_tab_profile"><i className="media fa fa-linkedin-square fa-2x"></i>Linked In</a></li>
+              <li><a href="https://github.com/vierello"><i className="media fa fa-github-square fa-2x"></i>Github</a></li>
+              <li><a href="https://www.facebook.com/vitello1"><i className="media fa fa-facebook-official fa-2x"></i>Facebook</a></li>
+              <li><a href="https://twitter.com/vierello"><i className="media fa fa-twitter-square fa-2x"></i>Twitter</a></li>
+            </ul>
+            <div className="col-md-6 col-xs-12 skills">
+              <img className="skill-image" src="./images/javascript-logo.png"/>
+              <img className="skill-image" src="./images/HTML5_logo.png"/>
+              <img className="skill-image" src="./images/CSS3-logo.png"/>
+              <img className="skill-image" src="./images/react-logo.png"/>
+              <img className="skill-image" src="./images/backbone-logo.png"/>
+              <img className="skill-image" src="./images/bootstrap-logo.png"/>
+              <img className="skill-image" src="./images/github-logo.png"/>
+              <img className="skill-image" src="./images/handlebars-logo.png"/>
+              <img className="skill-image" src="./images/jquery-logo.png"/>
+              <img className="skill-image" src="./images/sass-logo.png"/>
+              <img className="skill-image" src="./images/mocha-logo.png"/>
+              <img className="skill-image" src="./images/chai-logo.png"/>
+            </div>
+            <div className="col-md-2 col-xs-12 list-unstyled" id="sidebar-footer">
+              <div className="footer-personal-info">
+                <h3>Andrew Vitello</h3>
+                <h4 className="e-mail-address hidden-s">avitello75@gmail.com</h4>
+              </div>
             </div>
           </div>
         </footer>
@@ -139,40 +143,42 @@ var HomeComponent = React.createClass({
         </div>
       </div>
       <AboutMeComponent/>
-      <div className="col-md-offset-1 col-md-10">
-        <div className="row title-bar">
-          <div className="col-xs-12">
-            <h2 id="projects">PROJECTS</h2>
+      <div className="row">
+        <div className="col-md-offset-1 col-md-10">
+          <div className="row title-bar">
+            <div className="col-xs-12">
+              <h2 id="projects">PROJECTS</h2>
+            </div>
           </div>
-        </div>
-        <div className="row first-bar">
-          <div className="projects">
-            <BudgetMeComponent />
+          <div className="row first-bar">
+            <div className="projects">
+              <BudgetMeComponent />
+            </div>
           </div>
-        </div>
-        <div className="row second-bar">
-          <div className="projects">
-            <GithubProfileComponent />
+          <div className="row second-bar">
+            <div className="projects">
+              <GithubProfileComponent />
+            </div>
           </div>
-        </div>
-        <div className="row third-bar">
-          <div className="projects">
-            <RecipesComponent />
+          <div className="row third-bar">
+            <div className="projects">
+              <RecipesComponent />
+            </div>
           </div>
-        </div>
-        <div className="row fourth-bar">
-          <div className="projects">
-            <MajesticThaiComponent />
+          <div className="row fourth-bar">
+            <div className="projects">
+              <MajesticThaiComponent />
+            </div>
           </div>
-        </div>
-        <div className="row fifth-bar">
-          <div className="projects">
-            <Sk8SiteComponent />
+          <div className="row fifth-bar">
+            <div className="projects">
+              <Sk8SiteComponent />
+            </div>
           </div>
-        </div>
-        <div className="row sixth-bar">
-          <div className="projects">
-            <EtsyRecreationComponent />
+          <div className="row sixth-bar">
+            <div className="projects">
+              <EtsyRecreationComponent />
+            </div>
           </div>
         </div>
       </div>

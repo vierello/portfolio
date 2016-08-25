@@ -337,15 +337,15 @@ a:hover {
   //text-align: center;
   img {
     height: 400px;
-    transform: rotate(330deg);
+    transform: rotate(350deg);
   }
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1440px) {
 
   .av-logo {
     img {
-      height: 250px;
+      height: 300px;
     }
   }
 }
@@ -506,6 +506,12 @@ a:hover {
     position: relative;
     left: 0;
   }
+  .budget-me-buttons {
+    padding-left: 25px;
+    .code-button {
+      margin-right: 10px;
+    }
+  }
   .budget-me-tech-bar {
     position: absolute;
     bottom: 20px;
@@ -525,6 +531,20 @@ a:hover {
     position: relative;
     bottom: 10px;
     color: white;
+  }
+}
+
+@media (max-width: 1440px) {
+  .budget-me{
+    p {
+      font-size: 16px;
+    }
+    a {
+      font-size: 16px;
+    }
+    .budget-me-text {
+      line-height: 24px;
+    }
   }
 }
 
@@ -613,6 +633,12 @@ a:hover {
     position: relative;
     right: 0;
   }
+  .github-profile-buttons {
+    padding-left: 40px;
+    .code-button {
+      margin-right: 10px;
+    }
+  }
   .github-profile-tech-bar {
     position: absolute;
     bottom: 20px;
@@ -635,6 +661,20 @@ a:hover {
   }
 }
 
+@media (max-width: 1440px) {
+  .github-profile{
+    p {
+      font-size: 16px;
+    }
+    a {
+      font-size: 16px;
+    }
+    .github-profile-text {
+      line-height: 24px;
+    }
+  }
+}
+
 @media (max-width: 992px) {
   .github-profile {
     p {
@@ -646,6 +686,9 @@ a:hover {
     }
     .github-profile-text {
       line-height: 20px;
+    }
+    .github-profile-image {
+      text-align: center;
     }
   }
   .second-bar{
@@ -716,6 +759,12 @@ a:hover {
     display: inline-block;
     position: relative;
     left: 0;
+  }
+  .recipes-buttons {
+    padding-left: 25px;
+    .code-button {
+      margin-right: 10px;
+    }
   }
   .recipes-tech-bar {
     position: absolute;
@@ -824,6 +873,12 @@ a:hover {
     position: relative;
     left: 0;
   }
+  .majestic-thai-buttons {
+    padding-left: 40px;
+    .code-button {
+      margin-right: 10px;
+    }
+  }
   .majestic-thai-tech-bar {
     position: absolute;
     bottom: 20px;
@@ -927,6 +982,12 @@ a:hover {
     display: inline-block;
     position: relative;
     left: 0;
+  }
+  .sk8-site-buttons {
+    padding-left: 25px;
+    .code-button {
+      margin-right: 10px;
+    }
   }
   .sk8-site-tech-bar {
     position: absolute;
@@ -1035,6 +1096,12 @@ a:hover {
     position: relative;
     left: 0;
   }
+  .etsy-recreation-buttons {
+    padding-left: 40px;
+    .code-button {
+      margin-right: 10px;
+    }
+  }
   .etsy-recreation-tech-bar {
     position: absolute;
     bottom: 20px;
@@ -1090,13 +1157,16 @@ a:hover {
     .etsy-recreation-text {
       line-height: 20px;
     }
+    .etsy-recreation-image-p {
+      //text-align: center;
+    }
   }
 }
 
 //Footer styles-----------------------------------------------------------------
 
 .footer {
-  height: 200px;
+  height: auto;
   background-color: #444444;
   ul{
     margin-bottom: 0;
@@ -1115,7 +1185,13 @@ a:hover {
     height: 200px;
     vertical-align: middle;
     display: inline-block;
+    z-index: 10;
   }
+}
+
+.footer-row {
+  height: 200px;
+  position: relative;
 }
 
 .headshot-div {
@@ -1140,7 +1216,7 @@ a:hover {
 
 .media {
   margin-right: 20px;
-  height: 30px;
+  height: 32px;
   width: 30px;
   font-size: 25px;
   padding-top: 5px;
@@ -1153,7 +1229,8 @@ a:hover {
 .skill-image {
   height: 70px;
   width: 70px;
-  margin: 0 5px;
+  margin: 1px 5px;
+
 }
 
 .footer-personal-info {
@@ -1162,16 +1239,14 @@ a:hover {
   vertical-align: middle;
   position: absolute;
   bottom: 10px;
+  float: right;
 }
 
 #sidebar-footer {
   height: 200px;
-  line-height: 200px;
-  float: right;
-  position: relative;
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1300px) and (min-width: 993px) {
   .footer {
     height: auto;
   }
@@ -1185,36 +1260,31 @@ a:hover {
     margin-right: 0px;
     height: 25px;
     width: 25px;
+    padding-top: 0px;
   }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 992px) and (min-width: 769px) {
   .footer {
     height: auto;
   }
   #sidebar-footer {
-    background-color:#444444;
-    position:absolute;
+    height: 70px;
     h3,
     h4 {
       font-size: 10px;
-      position: absolute;
-      right: 10px;
     }
   }
   .media {
     margin-right: 0px;
     height: 25px;
     width: 25px;
+    padding-top: 0px;
   }
 }
 
 
 @media (max-width: 768px) {
-  #sidebar-footer {
-    height: auto;
-  }
-
   .footer {
     height: auto;
   }
@@ -1224,9 +1294,23 @@ a:hover {
     width: 50px;
   }
 
+  .media {
+    height: 20px;
+    width: 20px;
+    font-size: 12px;
+    padding-top: 0px;
+  }
+
+  #sidebar-footer {
+    height: 70px;
+    h3,
+    h4 {
+      font-size: 10px;
+    }
+  }
+
   .footer-personal-info {
     background-color: transparent;
-    float: none;
   }
 }
 

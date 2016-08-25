@@ -15,6 +15,10 @@ var BudgetMeComponent = React.createClass({
               It was quite a challenge, and really combined everything I learned
               during my time there.
           </p>
+          <div className="budget-me-buttons">
+            <a href="https://github.com/vierello/budget-me"><button className="code-button btn btn-success">View Code</button></a>
+            <a href="https://vierello.github.io/budget-me/"><button className="project-button btn btn-success">Live Project</button></a>
+          </div>
           <div className="budget-me-tech-bar">
             <p className="budget-me-tech">Technologies Used: </p>
             <a className="budget-me-links" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">Javascript</a>
@@ -43,6 +47,10 @@ var GithubProfileComponent = React.createClass({
               with the knowledge I had at the time. This project was completed in
               week 4 of the Iron Yard course.
           </p>
+          <div className="github-profile-buttons">
+            <a href="https://github.com/vierello/4.4-github-profile"><button className="code-button btn btn-success">View Code</button></a>
+            <a href="https://vierello.github.io/4.4-github-profile/"><button className="project-button btn btn-success">Live Project</button></a>
+          </div>
           <div className="github-profile-tech-bar">
             <p className="github-profile-tech">Technologies Used: </p>
             <a className="github-profile-links" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">Javascript</a>
@@ -71,6 +79,10 @@ var RecipesComponent = React.createClass({
               models and collections. This was also the first time we used Parse
               to store data. This project was completed in week 8 of the Iron Yard Course.
           </p>
+          <div className="recipes-buttons">
+            <a href="https://github.com/vierello/8.4-recipes"><button className="code-button btn btn-success">View Code</button></a>
+            <a href="https://vierello.github.io/8.4-recipes/"><button className="project-button btn btn-success">Live Project</button></a>
+          </div>
           <div className="recipes-tech-bar">
             <p className="recipes-tech">Technologies Used: </p>
             <a className="recipes-links" href="https://getbootstrap.com/">Bootstrap</a>
@@ -99,6 +111,10 @@ var MajesticThaiComponent = React.createClass({
               own for the first time. This project was completed in week 7 of the
               Iron Yard course.
           </p>
+          <div className="majestic-thai-buttons">
+            <a href="https://github.com/vierello/7.4-majestic-thai"><button className="code-button btn btn-success">View Code</button></a>
+            <a href="https://vierello.github.io/7.4-majestic-thai/"><button className="project-button btn btn-success">Live Project</button></a>
+          </div>
           <div className="majestic-thai-tech-bar">
             <p className="majestic-thai-tech">Technologies Used: </p>
             <a className="majestic-thai-links" href="https://getbootstrap.com/">Bootstrap</a>
@@ -127,6 +143,10 @@ var Sk8SiteComponent = React.createClass({
               to make the website responsive using media queries. This project was
               completed in week 2 of the Iron Yard course.
           </p>
+          <div className="sk8-site-buttons">
+            <a href="https://github.com/vierello/2.2-sk8-site"><button className="code-button btn btn-success">View Code</button></a>
+            <a href="https://vierello.github.io/2.2-sk8-site/"><button className="project-button btn btn-success">Live Project</button></a>
+          </div>
           <div className="sk8-site-tech-bar">
             <p className="sk8-site-tech">Technologies Used: </p>
             <a className="sk8-site-links" href="http://sass-lang.com/">Sass</a>
@@ -151,6 +171,10 @@ var EtsyRecreationComponent = React.createClass({
               API. This project was completed in week 4 of the Iron Yard course and
               was not intended to be responsive.
           </p>
+          <div className="etsy-recreation-buttons">
+            <a href="https://github.com/vierello/4.2-etsy-recreation"><button className="code-button btn btn-success">View Code</button></a>
+            <a href="https://vierello.github.io/4.2-etsy-recreation/"><button className="project-button btn btn-success">Live Project</button></a>
+          </div>
           <div className="etsy-recreation-tech-bar">
             <p className="etsy-recreation-tech">Technologies Used: </p>
             <a className="etsy-recreation-links" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON">JSON</a>
