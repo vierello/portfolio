@@ -5,5 +5,5 @@ require('bootstrap-sass');
 
 
 $(function(){
-  Backbone.history.start()
+  Backbone.history.start();
 });
