@@ -40,7 +40,8 @@ var GithubProfileComponent = React.createClass({
           <p className="github-profile-text">For this project I was tasked to recreate
               my Github Profile as closely as possible. We were not required to make
               it fully functional, though I tried to make it as functional as I could
-              with the knowledge I had at the time.
+              with the knowledge I had at the time. This project was completed in
+              week 4 of the Iron Yard course.
           </p>
           <div className="github-profile-tech-bar">
             <p className="github-profile-tech">Technologies Used: </p>
@@ -68,7 +69,7 @@ var RecipesComponent = React.createClass({
               recipe book that has a way to adjust recipes based on serving size.
               To accomplish this I used React for the views and Backbone for the
               models and collections. This was also the first time we used Parse
-              to store data.
+              to store data. This project was completed in week 8 of the Iron Yard Course.
           </p>
           <div className="recipes-tech-bar">
             <p className="recipes-tech">Technologies Used: </p>
@@ -95,7 +96,8 @@ var MajesticThaiComponent = React.createClass({
           <p className="majestic-thai-text">Majestic Thai was a project where we
               had to create a new menu for a thai restaurant using React and Backbone.
               We were given no wireframes or design and were required to create our
-              own for the first time.
+              own for the first time. This project was completed in week 7 of the
+              Iron Yard course.
           </p>
           <div className="majestic-thai-tech-bar">
             <p className="majestic-thai-tech">Technologies Used: </p>
@@ -122,7 +124,8 @@ var Sk8SiteComponent = React.createClass({
           <h1 className="sk8-site-title"><p>Sk8 Site</p></h1>
           <p className="sk8-site-text">The Sk8 Site project had us use only css,
               html and sass to recreate a design composition provided. We also had
-              to make the website responsive using media queries.
+              to make the website responsive using media queries. This project was
+              completed in week 2 of the Iron Yard course.
           </p>
           <div className="sk8-site-tech-bar">
             <p className="sk8-site-tech">Technologies Used: </p>
@@ -145,7 +148,8 @@ var EtsyRecreationComponent = React.createClass({
           <p className="etsy-recreation-text">The Etsy Recreation project involved
               looking at the Etsy website to try to indentically recreate the page
               using handlebars templates, along with using JSON data from the Etsy
-              API.
+              API. This project was completed in week 4 of the Iron Yard course and
+              was not intended to be responsive.
           </p>
           <div className="etsy-recreation-tech-bar">
             <p className="etsy-recreation-tech">Technologies Used: </p>
