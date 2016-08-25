@@ -17,14 +17,14 @@ var Router = Backbone.Router.extend({
     ReactDOM.render(
       React.createElement(HomeComponent),
       document.getElementById('container')
-    )
+    );
   },
 
   resume: function() {
     ReactDOM.render(
       React.createElement(ResumeComponent),
       document.getElementById('container')
-    )
+    );
   }
 });
 
