@@ -94,13 +94,14 @@ var AboutMeComponent = React.createClass({
             <img className="about-me-headshot" src="images/AV-headshot.jpg"/>
           </div>
           <div className="col-md-8 col-xs-12">
-            <p className="about-me-text">Hi, I&#39;m Andy Vitello, I am a very detail
+            <p className="about-me-text">Hi, I&#39;m Andy Vitello. I am a very detail
               oriented front end web developer. I just graduated from the Iron Yard&#39;s
               highly intensive 12 week front end engineering program. While at
               The Iron Yard I not only learned multiple technologies and skills,
               I learned how to learn and think like a developer, and how to use
               all the resources provided to me to find answers or solutions to
-              almost all of the problems anyone wouldrun into while developing applications.
+              almost all of the problems anyone would run into while developing
+              applications.
               <br />
               <br />
               I am making a career change from accounting to web development,
@@ -108,7 +109,8 @@ var AboutMeComponent = React.createClass({
               as it relates to profitability and cost versus benefit of designing
               applications. I am ready to join a team with good senior
               leadership and room for growth, where I feel like I can be a real
-              asset while also learning every day.</p>
+              asset while also learning every day.
+            </p>
           </div>
         </div>
       </div>
