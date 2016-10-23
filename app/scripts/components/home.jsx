@@ -68,6 +68,9 @@ var FooterComponent = React.createClass({
               <img className="skill-image" src="./images/sass-logo.png"/>
               <img className="skill-image" src="./images/mocha-logo.png"/>
               <img className="skill-image" src="./images/chai-logo.png"/>
+              <img className="skill-image" src="./images/jira.png"/>
+              <img className="skill-image" src="./images/bitbucket.png"/>
+              <img className="skill-image" src="./images/mdl.png"/>
             </div>
             <div className="col-md-2 col-xs-12 list-unstyled" id="sidebar-footer">
               <div className="footer-personal-info">
